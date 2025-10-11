@@ -178,7 +178,7 @@ audio {
 
 /* Terminal window header */
 .cat-box::before {
-    content: ">>> SYSTEM.KITO.INITIALIZE()";
+    content: ">>> SYSTEM.KITTY.INITIALIZE()";
     position: absolute;
     top: 10px;
     left: 20px;
@@ -342,7 +342,7 @@ audio {
 }
 
 .about::before {
-    content: "LOADING KITO.DATA...";
+    content: "LOADING KITTY.DATA...";
     position: absolute;
     top: 10px;
     left: 20px;
@@ -421,7 +421,7 @@ audio {
 }
 
 .chart-section::before {
-    content: "$ cat /price/chart/KITO";
+    content: "$ cat /price/chart/KITTY";
     position: absolute;
     top: 20px;
     left: 30px;
@@ -473,7 +473,7 @@ audio {
 }
 
 .community::before {
-    content: "// CONNECTING TO KITO.NETWORK";
+    content: "// CONNECTING TO KITTY.NETWORK";
     position: absolute;
     top: 20px;
     left: 30px;
@@ -1207,7 +1207,7 @@ button:focus {
 }
 
 .roadmap::before {
-    content: "$ cd roadmap/KITO & sh roadmap.sh";
+    content: "$ cd roadmap/KITTY & sh roadmap.sh";
     position: absolute;
     top: 10px;
     left: 20px;
